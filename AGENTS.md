@@ -1,6 +1,6 @@
 # ai-starter-pack
 
-<ONE_LINE_DESCRIPTION>
+A multi-merchant, single-product direct-response commerce platform (単品通販) with per-merchant customizable cart pages, back-office tools, orders, payments and subscriptions.
 
 ## Language
 
@@ -8,13 +8,11 @@ Project documentation and code identifiers are written in English. Commit messag
 
 ## Stack and commands
 
-- Stack: <STACK>
-- Test: <TEST_COMMAND>
-- Lint: <LINT_COMMAND>
-- Typecheck: <TYPECHECK_COMMAND>
-- Dev: <DEV_COMMAND>
-
-Replace every placeholder above before the first implementation task. Also replace the command and directory placeholders in `.opencode/agents/dev.md` and `.opencode/agents/tester.md`.
+- Stack: Spring Boot 3 (Java 21), Angular, PostgreSQL 16, Node SSR renderer for merchant cart pages
+- Test: ./mvnw test
+- Lint: npm --prefix frontend run lint
+- Typecheck: npm --prefix frontend run typecheck
+- Dev: ./mvnw spring-boot:run
 
 ## Specs
 
