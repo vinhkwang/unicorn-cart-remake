@@ -1,7 +1,8 @@
 {
   "$schema": "https://opencode.ai/config.json",
   "instructions": [
-    "docs/ai/rules/*.md"
+    "docs/ai/rules/*.md",
+    "docs/ai/workflow/loop-protocol.md"
   ],
   "permission": {
     "edit": "ask",
@@ -14,6 +15,10 @@
       "git branch*": "allow",
       "git add*": "allow",
       "git commit*": "allow",
+      "git push*": "allow",
+      "jq*": "allow",
+      "scripts/ai/validate-task-state.sh*": "allow",
+      "scripts/ai/run-loop.sh*": "allow",
       "git push --force*": "deny",
       "git push -f*": "deny",
       "git reset --hard*": "deny",
